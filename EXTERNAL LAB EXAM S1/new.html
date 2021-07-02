@@ -1,0 +1,80 @@
+<html>
+<head>
+    <title>
+        PackYourBags
+    </title>
+</head>
+<body>
+    <form name="insert" method="POST" action="insert.php">
+        <center>
+        <h2>ROOM BOOKING</h2><br>
+        <table border=2 align=center width=60 bgcolor=seablue >
+        <tr>
+            <th>Name:</th>
+            <td bgcolor="white"><input type="text" name="name" /><br></td>
+        </tr>
+        <tr>
+            <th>
+                Hotel Name
+            </th>
+            <td bgcolor="white">
+                <input type="text" name="hotel" /><br>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Phone Number:
+            </th>
+            <td bgcolor="white">
+                <input type="number" name="phno"/><br>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Date of Arrival:
+            </th>
+            <td bgcolor="white">
+                <input type="date" name="adate"/><br>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Assumed No of days for stay:
+            </th>
+            <td bgcolor="white">
+                <input type="number" name="days"/><br>
+            </td>
+        </tr>
+        <tr>
+            <th>
+                Room no:
+            </th>
+            <td bgcolor="white">
+                <input type="number" name="roomno"/><br>
+            </td>
+        </tr>
+        <tr>
+            
+            <td colspan="2">
+            <center>
+                <input type="submit" name="book" value="Book"/>
+            </td>
+            </center>
+        </tr>
+        
+        <!-- Rate:<input type="number" name="rate"/><br> -->
+        </table>
+        </center>
+    </form>
+        <!-- <center>
+            <a href="new.html">Click here to view all bookings</a>
+        </center> -->
+    <center>
+        <form name="display" method="POST" action="display.php">
+            <h2>SHOW ALL BOOKINGS</h2><br>
+            <input type="submit" name="show" value="Show"/><br>
+        </form>
+    </center>
+
+</body>
+</html>
